@@ -1,0 +1,18 @@
+﻿@using Cet322BookStoreHomework2.Data;
+@model Book
+
+
+<h1> Kitap Listesi </h1>
+
+<div class="text-center">
+    <h1>Günün Kitabı </h1>
+    <p>
+        Bugünün Tarihi :<strong> @DateTime.Today.ToShortDateString() </strong>
+    </p>
+
+    <h4>Kitap Önerimiz</h4>
+    <h5>@Model.Name</h5>
+    <p> Yazarı : <strong>@Model.PageCount</strong></p>
+    <p> Fiyatı : <strong> @Model.Price TL </strong></p>
+
+</div>

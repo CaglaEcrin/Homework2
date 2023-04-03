@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Cet322BookStoreHomework2.props" />
+</Project>
